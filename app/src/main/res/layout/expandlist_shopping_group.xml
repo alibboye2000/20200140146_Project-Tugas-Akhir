@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/ExpandListGroupBackground">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvGroup"
+        android:textSize="20sp"
+        android:layout_marginRight="15dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/tv_menu"
+        android:id="@+id/tvGroupDate"
+        android:textSize="20sp"
+        android:layout_marginRight="65dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_menu"
+        android:layout_alignParentRight="true"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:text="&#8942;"
+        android:layout_marginRight="65dp"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>

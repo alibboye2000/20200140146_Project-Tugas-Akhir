@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateShoppingList">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/addOrderinTable">
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/catTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/itembackground"
+                android:text="category"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/productTextView"
+                android:layout_weight="1"
+                android:background="@drawable/itembackground"
+                android:layout_gravity="center"
+                android:text="product"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/quantityTextView"
+                android:layout_weight="1"
+                android:background="@drawable/itembackground"
+                android:layout_gravity="center"
+                android:text="Quantity"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/unitTextView"
+                android:layout_weight="1"
+                android:background="@drawable/itembackground"
+                android:layout_gravity="center"
+                android:text="Unit"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+        </TableRow>
+        <TableRow>
+
+            <Button
+                android:id="@+id/addMoreItem"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="#77B5FE"
+                android:text="Add More Item"
+                android:textColor="#795548"
+                android:textSize="24dp" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="#B43757"
+                android:text="SUBMIT"
+                android:textSize="24dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+</ScrollView>
